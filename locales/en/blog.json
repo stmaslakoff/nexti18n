@@ -1,0 +1,7 @@
+{
+  "title": "Hello blog",
+  "ssr": "SSR",
+  "static": "Static",
+  "fallback": "Static with fallback",
+  "variable-example": "Using a variable {{count}}"
+}

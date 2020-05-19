@@ -1,0 +1,7 @@
+{
+  "query": "Запрос",
+  "post": "Пост",
+  "title": "Заголовок",
+  "body": "Тело",
+  "variable-example": "Using a variable {{count}}"
+}

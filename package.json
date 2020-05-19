@@ -1,0 +1,38 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build-cli": "babel src -d lib",
+    "next-translate": "npm run build-cli && node lib/builder.js",
+    "dev": "npm run next-translate && next dev",
+    "build": "npm run next-translate && next build",
+    "start": "next start",
+    "test": "rimraf .next && npm run next-translate && next build && next start"
+  },
+  "dependencies": {
+    "next": "9.3.6",
+    "next-translate": "^0.15.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.8.4",
+    "@babel/core": "7.9.6",
+    "@babel/preset-env": "7.9.6",
+    "@testing-library/react": "10.0.4",
+    "babel-jest": "26.0.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "6.26.2",
+    "babel-preset-minify": "0.5.1",
+    "cross-env": "7.0.2",
+    "express": "4.17.1",
+    "husky": "4.2.5",
+    "jest": "26.0.1",
+    "next": "9.3.6",
+    "prettier": "2.0.5",
+    "pretty-quick": "2.0.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "supertest": "4.0.2"
+  }
+}

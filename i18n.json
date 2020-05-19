@@ -1,0 +1,13 @@
+{
+  "allLanguages": ["en", "ru"],
+  "defaultLanguage": "en",
+  "currentPagesDir": "pages_",
+  "finalPagesDir": "pages",
+  "localesPath": "locales",
+  "pages": {
+    "*": ["common"],
+    "/blog": ["blog"],
+    "/about": ["about"]
+  },
+  "redirectToDefaultLang": true
+}
