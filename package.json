@@ -11,7 +11,7 @@
     "test": "rimraf .next && npm run next-translate && next build && next start"
   },
   "dependencies": {
-    "next": "9.3.6",
+    "next": "11.1.3",
     "next-translate": "^0.15.1",
     "react": "16.13.1",
     "react-dom": "16.13.1"
@@ -28,7 +28,7 @@
     "express": "4.17.1",
     "husky": "4.2.5",
     "jest": "26.0.1",
-    "next": "9.3.6",
+    "next": "11.1.3",
     "prettier": "2.0.5",
     "pretty-quick": "2.0.1",
     "react": "16.13.1",
